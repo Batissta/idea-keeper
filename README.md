@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  
+# 🧠 Idea Keeper
 
-## Getting Started
+</div>
 
-First, run the development server:
+<div align="center">
+  
+Esta será uma aplicação fullstack para a criação e organização de ideias em formato de texto!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,nodejs,express,mysql)](https://skillicons.dev)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✍🏻 Autor
 
-## Learn More
+<a><img src="https://gitlab.com/uploads/-/system/user/avatar/23003426/avatar.png" width="200"></a><br><br>
 
-To learn more about Next.js, take a look at the following resources:
+Olá, Sou **Francinaldo Batista** <br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📍 **Localidade:** Campina Grande, Paraíba<br>
+🎓 **Formação:** Sistemas de informação - UniFacisa, 4° Semestre<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Me encontre no **LinkedIn:**<br>
+<a href="https://www.linkedin.com/in/francinaldobatista"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" width="100"></a>
 
-## Deploy on Vercel
+## 🤔 Como rodar o código?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pré-requisitos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Node.js (v16 ou superior)
+- Mysql
+
+### Passos para Configuração
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/Batissta/idea-keeper.git
+   cd idea-keeper
+   ```
+
+2. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+<!-- 3. **Configure as variáveis de ambiente:**
+   Crie um arquivo `.env` e adicione a seguinte variável:
+   ```env
+   DB_STRING_CONNECTION=sua_string_de_conexão
+   PORT=sua_porta
+   ROUNDS=quantidade_de_vezes_que_a_senha_é_criptografada_em_int_deixe_entre_10_e_13
+   SECRET=seu_segredo
+   ``` -->
+
+3. **Execute o servidor:**
+
+   ```bash
+   npm run dev
+   ```
+
+   <!-- O servidor estará disponível na rota que você adicionar ao `.env`. -->
+
+## 🤝 Como Contribuir
+
+Deixa uma estrela no repositório e me siga no linkedin.
+Também possuo um canal no youtube. Se quiser conhecer, aqui está o link: [youtube.com/@Francinaldob](https://www.youtube.com/@Francinaldob) <Br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)<br>
+
+**Made by _Francinaldo Batista_**
