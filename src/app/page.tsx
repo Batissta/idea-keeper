@@ -1,4 +1,4 @@
-import EditorBase from "./components/editor/Editor";
+import EditorBase from "../components/editor/Editor";
 
 export default function Home() {
   return (
