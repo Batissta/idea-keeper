@@ -20,7 +20,7 @@ const EditorBase = () => {
     <>
       <SidebarTrigger className="absolute z-10 top-4 left-4" />
       <EditorContent
-        className="mx-auto my-0 overflow-hidden text-zinc-50 prose prose-invert prose-violet max-w-[800px] max-h-[90%]"
+        className="mx-auto my-0 overflow-hidden text-zinc-50 prose prose-invert prose-violet max-w-[800px] w-[800px] max-h-[90%]"
         editor={editor}
       />
       {editor && (
