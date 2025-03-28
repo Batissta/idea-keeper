@@ -11,7 +11,7 @@ const EditorBase = () => {
     content: initialContent,
     editorProps: {
       attributes: {
-        class: "outline-none",
+        class: "outline-none font-(family-name:--font-poppins) text-zinc-200",
       },
     },
   });
